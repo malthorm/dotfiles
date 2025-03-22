@@ -1,0 +1,30 @@
+# Aliases
+alias pac='sudo pacman -S'
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+## Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+
+## aliases for frequently used cmds
+alias ls='exa'
+alias ll='exa -l'
+alias la='exa -al'
+alias cat='bat'
+alias less='less -R'
+alias pwdc='pwd | copy'
+alias light='alacritty-colorscheme apply tokyonight_day.yaml'
+alias dark='alacritty-colorscheme apply tokyonight_night.yaml'
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+
+alias config="cd ~/.config"
+alias cdnvim='cd ~/.config/nvim'
+alias zshrc='vi ~/.config/zsh/zshrc'
+alias root='/'
+alias vi='nvim'
+alias copy='xsel -ib'
+alias b='cd ..'
+alias lsd='ls -d */'
+alias youtube='youtube-dl -x --audio-format "mp3"'

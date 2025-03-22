@@ -1,0 +1,17 @@
+[user]
+	email = malthor@mailbox.org
+	name = Malte Thormählen
+[alias]
+	ci = commit
+	st = status
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[mergetool]
+	keepBackup = true
+[credential]
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
